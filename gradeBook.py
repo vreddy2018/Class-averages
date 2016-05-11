@@ -35,7 +35,7 @@ def class_average(grid):
 	
 	
 rowAverages = grade_calculator(grades)
-print("Row averages:    {}".format(rowAverages))
+print("Each person's average: {}".format(rowAverages))
 
 classAverages = class_average(grades)
-print 'class average: {}'.format(classAverages)
+print 'Class average: {}'.format(classAverages)
